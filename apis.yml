@@ -1,8 +1,26 @@
 aid: sidewinder-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidewinder-therapeutics.png
 name: Sidewinder Therapeutics
-description: Sidewinder Therapeutics is a company surfaced as a portfolio company of dcvc and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sidewinder Therapeutics is a clinical-stage biopharmaceutical company founded in 2023 and
+  headquartered in San Diego, developing a new generation of precision bispecific antibody-drug conjugates
+  (ADCs) for the treatment of solid tumors. Its engineered biologics bind two complexed targets simultaneously
+  to increase tumor specificity, driving internalization of the antibody-receptor complex and its cytotoxic
+  payload, with the goal of expanding the therapeutic window for hard-to-treat cancers such as colorectal,
+  lung, and head-and-neck squamous cell carcinomas. The company raised an oversubscribed $137M Series B in
+  2026 (co-led by Frazier Life Sciences and Novartis Venture Fund, with DCVC Bio, OrbiMed, and others) and
+  is advancing its bispecific ADC programs toward clinical development. Sidewinder is a biopharma research
+  company and publishes no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/sidewinder-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,37 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Oncology
+- Antibody-Drug Conjugates
+- Cancer Therapeutics
+- Life Sciences
+- Drug Development
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sidewinder-therapeutics-domain-security.yml
+- type: Website
+  url: https://sidewinderbio.com/
+- type: PrivacyPolicy
+  url: https://sidewinderbio.com/privacy-notice
+- type: TermsOfService
+  url: https://sidewinderbio.com/terms-of-use
+- type: Blog
+  url: https://sidewinderbio.com/#news
+- type: Support
+  url: https://sidewinderbio.com/#contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
